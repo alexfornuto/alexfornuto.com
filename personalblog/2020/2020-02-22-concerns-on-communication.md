@@ -44,7 +44,7 @@ What about the long term? For the moment let's ignore the problems of careless c
 
 So our words are meant to express ideas. But what are our ideas _to us_? I wish I had a better phrasing to use, because even the term "our ideas" invokes the problematic notion I find so alarming.
 
-The majority of ideas you have are not "your ideas". They are ideas you read or heard from others, agreed with, and adopted. That's how we learn[1](#fn-600-1). My concern with the phrasing is that it's a supporting factor of the problem of identity construction.
+The majority of ideas you have are not "your ideas". They are ideas you read or heard from others, agreed with, and adopted. That's how we learn[^1]. My concern with the phrasing is that it's a supporting factor of the problem of identity construction.
 
 You are not your ideas. The things you believe are not you as a person. They are a big factor to be sure, but _you_ and your thoughts are separate things.
 
@@ -70,4 +70,4 @@ Fact: In the context of this essay, a fact is only objective truth, which itself
 
 * * *
 
-2. I am not exempt from this. Little to none of the ideas discussed here are my own. This is merely an amalgamation of ideas I've read or heard and determined valid, restructured in the form I feel best suited to convey the unified point I wish to make. [↩](#fnref-600-1)
+[^1]: I am not exempt from this. Little to none of the ideas discussed here are my own. This is merely an amalgamation of ideas I've read or heard and determined valid, restructured in the form I feel best suited to convey the unified point I wish to make.

@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'AlexFornuto.com',
-  tagline: 'Technical Writer by choice, junior developer by necessity.',
+  tagline: 'Technical Writer by choice, part-time developer by necessity.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -157,7 +157,7 @@ const config = {
           redirects: [
             {
               to: '/blog/how-to-ask-for-help-on-irc',
-              from: ['/how-to-ask-for-help-on-irc/', '/how-to-ask-for-help-on-irc']
+              from: ['/how-to-ask-for-help-on-irc/']
             }
           ]
         }

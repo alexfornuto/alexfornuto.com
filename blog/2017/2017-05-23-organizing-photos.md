@@ -8,8 +8,6 @@ tags:
   - "tutorial"
 ---
 
-_This post is on quickly sorting photo libraries. If you want to skip the backstory and jump right to the commands, [click here](#tldr)._
-
 I recently switched my personal file hosting/sharing to [NextCloud](https://nextcloud.com/),  from OwnCloud. Among other features and improvements, it will automatically sort uploaded photos from my phone into folders by date. 
 
 This great new feature created a glaring contrast with the many years' worth of previous photos, mostly all in a single directory, some sorted manually by event.  The process of grammatically identifying, sorting, and deduplicating was simple enough once all the tools were lined up, but finding them was not. What follows are the tools I used to get my photos in order.
