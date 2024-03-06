@@ -19,6 +19,9 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
+  //Local Plausible Analytics
+  scripts: [{src: 'https://analytics.swag.alexf.local/js/script.js', defer: true, 'data-domain': 'alexfornuto.com'}],
+
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   //organizationName: 'facebook', // Usually your GitHub org/user name.
@@ -141,12 +144,12 @@ const config = {
       },
     }),
     plugins: [
-      [
-        'docusaurus-plugin-plausible',
-        {
-          domain: 'alexfornuto.com',
-        },
-      ],
+      //[
+      //  'docusaurus-plugin-plausible',
+      //  {
+      //    domain: 'alexfornuto.com',
+      //  },
+      //],
       [
         '@docusaurus/plugin-content-blog',
         {
