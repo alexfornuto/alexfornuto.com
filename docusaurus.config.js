@@ -142,6 +142,12 @@ const config = {
     }),
     plugins: [
       [
+        'docusaurus-plugin-plausible',
+        {
+          domain: 'alexfornuto.com',
+        },
+      ],
+      [
         '@docusaurus/plugin-content-blog',
         {
           id:'personal-blog',
