@@ -5,7 +5,7 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
-
+import 'dotenv/config';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -20,7 +20,7 @@ const config = {
   baseUrl: '/',
 
   //Local Plausible Analytics
-  scripts: [{src: 'https://analytics.swag.alexf.local/js/script.js', defer: true, 'data-domain': 'alexfornuto.com'}],
+  scripts: [{src: process.env.TRACKER, defer: true, 'data-domain': 'alexfornuto.com'}],
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -144,12 +144,6 @@ const config = {
       },
     }),
     plugins: [
-      //[
-      //  'docusaurus-plugin-plausible',
-      //  {
-      //    domain: 'alexfornuto.com',
-      //  },
-      //],
       [
         '@docusaurus/plugin-content-blog',
         {
