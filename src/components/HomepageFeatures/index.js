@@ -21,7 +21,7 @@ const FeatureList = [
     Svg: require('@site/static/img/coworking.svg').default,
     description: (
       <>
-        A guide on how I communicate and work, borrowed from
+        A guide on how I communicate and work, borrowed from <nbsp/>
         <Link to="https://workwithme.guide/">WorkWithMe.guide</Link>
       </>
     ),
