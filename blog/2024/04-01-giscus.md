@@ -21,7 +21,7 @@ Since my blog is just that, not a documentation site, I'm applying this comments
 
 ## Define the Component
 
-1. Begin at [giscus.app](giscus.app), which will guide you through the process of authorizing the bot, preparing a repository, and collecting the details needed. Come back here when you get to the **Enable giscus** section, which is where we begin the custom setup for Docusaurus.
+1. Begin at [giscus.app](https://giscus.app), which will guide you through the process of authorizing the bot, preparing a repository, and collecting the details needed. Come back here when you get to the **Enable giscus** section, which is where we begin the custom setup for Docusaurus.
 
 1. Define a new `GiscusComponent` component at `src/components/GiscusComponents/index.js`:
 
