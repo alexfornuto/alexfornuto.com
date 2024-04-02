@@ -67,9 +67,9 @@ In Docusaurus terms, to "swizzle" is to extract a component of Docusaurus into y
     npm run swizzle @docusaurus/theme-classic BlogPostItem -- --wrap
     ```
 
-    The `--wrap` flag indicates that we're not taking out the entire component into our code base. Rather, we're creating a file that imports the original component and lets you add features arounf it.
+    The `--wrap` flag indicates that we're not taking out the entire component into our code base. Rather, we're creating a file that imports the original component and lets you add features around it.
 
-    Note that this will show the comments on the main blog page under each excerpt, depending on your site's configuration. If you want it to only show on on a specific posts' page and find the correct component to swizzle, please let me know in the comments.
+    Note that this will show the comments on the main blog page under each excerpt, depending on your site's configuration. If you want it to only show on a specific posts' page and find the correct component to swizzle, please let me know in the comments.
 
 1. Open the newly created file at `src/components/theme/BlogPostItem/index.js` and import your new component:
 
@@ -91,4 +91,5 @@ In Docusaurus terms, to "swizzle" is to extract a component of Docusaurus into y
     );
     ```
 
-That's it! Check your local preview for the comments window, it should look just like the one at the bottom of this page (depending on your color scheme). 
+That's it! Check your local preview for the comments window, it should look just like the one at the bottom of this page (depending on your color scheme).
+
