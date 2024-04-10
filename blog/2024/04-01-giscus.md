@@ -57,38 +57,35 @@ Since my blog is just that, not a documentation site, I'm applying this comments
 
     Replace the values with those provided by giscus.app.
 
-## Swizzle BlogItems
+## Swizzle BlogPostPage
 
 In Docusaurus terms, to "swizzle" is to extract a component of Docusaurus into your managed code base, so that you can make modifications. Their documentation and CLI will warn you numerous times that this is dangerous, but I've yet to encounter issues after many a swizzles.
 
-1. From your docusaurus directory, "swizzle" the `BlogPostItem` component:
+1. From your docusaurus directory, "swizzle" the `BlogPostPage` component:
 
     ```sh
-    npm run swizzle @docusaurus/theme-classic BlogPostItem -- --wrap
+    npm run swizzle @docusaurus/theme-classic BlogPostPage --
     ```
 
-    The `--wrap` flag indicates that we're not taking out the entire component into our code base. Rather, we're creating a file that imports the original component and lets you add features around it.
+    The CLI will ask if you want to "Wrap" or "Eject" the component. Choose "Eject".
 
-    Note that this will show the comments on the main blog page under each excerpt, depending on your site's configuration. If you want it to only show on a specific posts' page and find the correct component to swizzle, please let me know in the comments.
-
-1. Open the newly created file at `src/components/theme/BlogPostItem/index.js` and import your new component:
+1. Open the newly created file at `src/components/theme/BlogPostPage/index.js` and import your new component:
 
     ```jsx
-    import React from 'react';
-    import BlogPostItem from '@theme-original/BlogPostItem';
+    ...
     import GiscusComponent from '@site/src/components/GiscusComponent';
+
+    function BlogPostPageContent({sidebar, children}) {
+    ...
     ```
 
 1. Directly under the `BlogPostItem` line, add the new component:
 
     ```jsx
-    export default function BlogPostItemWrapper(props) {
-    return (
-        <>
-        <BlogPostItem {...props} />
-        <GiscusComponent />
-        </>
-    );
+    ...
+      <BlogPostItem>{children}</BlogPostItem>
+      <GiscusComponent />
+    ...
     ```
 
 That's it! Check your local preview for the comments window, it should look just like the one at the bottom of this page (depending on your color scheme).
