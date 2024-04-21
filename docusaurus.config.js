@@ -161,7 +161,11 @@ const config = {
             {
               to: '/blog/how-to-ask-for-help-on-irc',
               from: ['/how-to-ask-for-help-on-irc/']
-            }
+            },
+            {
+              to: 'https://www.amazon.com/hz/wishlist/ls/3JHZZ6FJZ23G9?ref_=wl_share',
+              from: ['/wishlist']
+            },
           ]
         }
       ]
