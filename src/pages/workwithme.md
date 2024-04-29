@@ -22,7 +22,7 @@ All the work I do is in the interest of making the best explanations I can for t
 
 I don't take praise well. If I did a good job, I'm happy about it. It's its own reward and all that. Please don't make a big deal about it.
 
-Now constructive criticism, that I can handle. See [Values](#values) above. I am not my words, my ego isn't tied to it. My ego is tied to helping make the best documentation **we** can make.i
+Now constructive criticism, that I can handle. See [Values](#values) above. I am not my words, my ego isn't tied to it. My ego is tied to helping make the best documentation **we** can make.
 
 This applies to personal feedback as well. I want to be a good coworker to you, but I recognize that I probably am not "out of the box" ready. I can be "a bit much", and I recognize that. Don't be afraid to DM me if you need to get something off your chest.
 
