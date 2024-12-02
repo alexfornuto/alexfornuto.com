@@ -163,7 +163,7 @@ const config = {
               from: ['/how-to-ask-for-help-on-irc/']
             },
             {
-              to: 'https://www.amazon.com/hz/wishlist/ls/3JHZZ6FJZ23G9?ref_=wl_share',
+              to: 'https://mywishlist.online/w/qjos0v/alexs-wishlist',
               from: ['/wishlist']
             },
           ]
